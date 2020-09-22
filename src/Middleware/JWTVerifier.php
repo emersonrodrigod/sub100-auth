@@ -13,7 +13,7 @@ class JWTVerifier extends BaseMiddleware
     public function handle($request, Closure $next)
     {
 
-        $token = $request->header('sub100_token');
+        $token = $request->header('x-api-key');
 
         if(!$token) {
             return response()->json(['status' => 'Sub100 Authorization Token not found'], 401);
