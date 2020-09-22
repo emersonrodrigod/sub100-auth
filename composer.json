@@ -1,6 +1,8 @@
 {
     "name": "sub100/auth",
     "description": "Sub100 Auth Laravel SDK",
+    "version": "0.0.0",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
